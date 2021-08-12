@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
@@ -12,21 +13,25 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light" id="navMain">
-        <div class="container-fluid navbarTest">
-            <a class="navbar-brand" href="#">primary</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarID">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    
-                </div>
-            </div>
+    <nav class=" navbar navbar-expand-lg fixed-top">
+        <div id="navMain" class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span ><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+    
     <div class="container-fluid headerSkew" data-aos="fade-left">
         <div class="row">
             <div class="col-1 col-md-4 text-center modify">
@@ -40,6 +45,21 @@
         </div>
         
     </div>
+    <!--  ABOUT ME SECTION  -->
+    <section class="about-me">
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center about-me align-content-center ">
+            <div  class="col-10 col-md-5 text" data-aos="fade-right">
+                <img  id="aboutme" src="/assets/image/aboutme1.jpg" alt="" srcset="">
+            </div>
+            <div class="col-10 col-md-5 aboutmet mt-4" data-aos="fade-left">
+                <h3>About me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vero natus non quibusdam veniam explicabo quia autem, corrupti rem? Non necessitatibus exercitationem dicta voluptatum nesciunt laborum deleniti laudantium ut ad.</p>
+            </div>
+        </div>
+    </div>    
+    </section>
+    <!--  SKILL SECTION LANGAGE  -->
     <section class="skillSection"> 
         <h3 class="text-center"> My skill</h3>   
         <div class="container card-group mt-4" data-aos="fade-up">

@@ -8,11 +8,10 @@ AOS.init({
 /////////////////////// NAVBAR SHRINK
 
 window.addEventListener("scroll", ()=>{
-    if(scrollY == 0){
-        $("#navMain").fadeIn();
+    if(scrollY < 150){
+        $("#navMain").fadeIn("slow");
     }else{
-        $("#navMain").fadeOut();
+        $("#navMain").fadeOut("slow");   
     }
-    if(sc)
-    console.log(window.scrollY);
+    
 })

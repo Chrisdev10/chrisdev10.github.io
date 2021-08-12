@@ -10,26 +10,54 @@
     --webkit-font-family1: 'Arial', Helvetica, sans-serif;
     --webkit-font-family1: 'Arial', Helvetica, sans-serif;
 
+    --webkit-transition: all .4s ease;
+
+}
+/* BODY */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #707070;
 }
 /* NAV BAR */
-.navbar{
-    background-color: var(--webkit-color-black);
-    color: #FFDF6C;
+
+@media screen and (max-width: 992px){
+    #navMain{
+        background-color: #202020;
+    }
+}
     
+
+#navMain a{
+    color: #FFDF6C;
+    font-family: 'Major Mono Display', monospace;
+
     
 }
-.navbarTest{
-    color: #FFDF6C;
-    border-bottom: 1px solid #FFDF6C;
+#navMain a:hover{
+    transform: scale(1.1);
+    
+    transition: var(--webkit-transition)
 }
+.navbar-nav  li > a {
+    margin: 0px 3rem;
+}
+span i {
+    color: #FFDF6C;
+}
+
+
+/************************************************************************/
 /* HEADER IMG */
 
 .headerSkew{
-    height: 500px;
-    background-image: url('/assets/image/montage3.jpg');
+    height: 700px;
+    background-image: url('/assets/image/montage5.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 70% 100%, 0% 70% );
 }
 .imag{
@@ -39,15 +67,20 @@
 .modify{
     color: #FFDF6C;
     margin: 0px auto;
-    margin-top: 5%;
+    margin-top: 15%;
     font-family: 'Major Mono Display', monospace;
 }
 .underline{
     opacity: 50%;
 }
 
+/************************************************************************/
 
 /* SKILL CARD */
+
+h3{
+    font-family: var(--webkit-font-family1);
+}
 .card{
     margin: 0px 40px;
     border-radius: 15px;
@@ -79,6 +112,24 @@
     margin-top: 60px;  
 }
 
-h3{
-    font-family: var(--webkit-font-family1);
+/************************************************************************/
+
+/* ABOUT ME */
+
+.about-me{
+    height: auto;
+    background-color:#3F3F3F;  
+
+
+}
+.aboutmet{
+    color: #FFDF6C;
+    text-align: center;
+    align-self: center;
+}
+#aboutme{
+    display: block;
+    position: relative;
+    max-width: 100%;  
+    text-align: center;  
 }
