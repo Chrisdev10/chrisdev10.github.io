@@ -15,14 +15,14 @@
 <body>
     <nav class=" navbar navbar-expand-lg fixed-top">
         <div id="navMain" class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#maskill">MyBlog</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span ><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#aboutma">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -46,13 +46,14 @@
         
     </div>
     <!--  ABOUT ME SECTION  -->
-    <section class="about-me">
-    <div class="container-fluid mt-5">
-        <div class="row justify-content-center about-me align-content-center ">
-            <div  class="col-10 col-md-5 text" data-aos="fade-right">
+    <section class="about-me" id="aboutma">
+        
+    <div class="container-fluid mt-5 skewRight">
+        <div class="row about-me">
+            <div  class="col-10 col-md-4 text ps-0" data-aos="fade-right">
                 <img  id="aboutme" src="/assets/image/aboutme1.jpg" alt="" srcset="">
             </div>
-            <div class="col-10 col-md-5 aboutmet mt-4" data-aos="fade-left">
+            <div class="col-10 col-md-8 aboutmet mt-4" data-aos="fade-left">
                 <h3>About me</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vero natus non quibusdam veniam explicabo quia autem, corrupti rem? Non necessitatibus exercitationem dicta voluptatum nesciunt laborum deleniti laudantium ut ad.</p>
             </div>
@@ -60,41 +61,117 @@
     </div>    
     </section>
     <!--  SKILL SECTION LANGAGE  -->
-    <section class="skillSection"> 
-        <h3 class="text-center"> My skill</h3>   
-        <div class="container card-group mt-4" data-aos="fade-up">
-            <div class="card rounded-3">
-                <div class="card-header"></div>
-                <img class= "card-img-top" src="/assets/image/Bootstrap-Logo-PNG-715x715.png" alt="">
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
+    <section class="skillSection" id="maskill"> 
+        <div class="container-fluid my-4">
+            <h2 class="text-center"> My skill</h3>
+            <img class="center" src="/assets/image/logo.png" alt="" srcset=""> 
+        </div>
+        <div class="container-fluid my-4">
+            <div class="row skewLeft mt-5" data-aos="fade-up">
+                <div class="col-md-6 col-12 aboutmet">
+                    <h3>Bootstrap Lvl</h3>
+                    <div class="skill-level">
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 justify-content-center align-content-center">
+                    <div class="wrapper">
+                        <img class="logo" src="/assets/image/Bootstrap-Logo-PNG-715x715.png" alt="" srcset="">
+                    </div>
+                </div>
             </div>
-            <div class="card rounded-3">
-                <div class="card-header"></div>
-                <img src="/assets/image/angular-icon-1-logo-png-transparent.png" alt="">
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
+            <div class="row skewLeft mt-5" data-aos="fade-up">
+                <div class="col-md-6 col-12">
+                    <div class="wrapper">
+                        <img class="logo" src="/assets/image/HTML5_badge.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 aboutmet">
+                    <h3>Html Lvl</h3>
+                    <div class="skill-level">
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                    </div>
+                </div>
             </div>
-            <div class="card rounded-3">
-                <div class="card-header"></div>
-                <img src="/assets/image/java-icon.png" alt="">
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
+            <div class="row skewLeft mt-5" data-aos="fade-up">
+                <div class="col-md-6 col-12 aboutmet">
+                    <h3>Css Lvl</h3>
+                    <div class="skill-level">
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 justify-content-center align-content-center">
+                    <div class="wrapper">
+                        <img class="logo" src="/assets/image/css31600.png" alt="" srcset="">
+                    </div>
+                </div>
             </div>
-            <div class="card rounded-3">
-                <div class="card-header"></div>
-                <img src="/assets/image/HTML5_badge.png" alt="">
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
+            <div class="row skewLeft mt-5" data-aos="fade-up">
+                <div class="col-md-6 col-12">
+                    <div class="wrapper">
+                        <img class="logo" src="/assets/image/java-icon.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 aboutmet">
+                    <h3>Java Lvl</h3>
+                    <div class="skill-level">
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                    </div>
+                </div>
             </div>
-            <div class="card rounded-3">
-                <div class="card-header"></div>
-                <img src="/assets/image/css31600.png" alt="">
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
+            <div class="row skewLeft mt-5" data-aos="fade-up">
+                <div class="col-md-6 col-12 aboutmet">
+                    <h3>Angular Lvl</h3>
+                    <div class="skill-level">
+                        <span><img src="/assets/icon/fullstar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                        <span><img src="/assets/icon/emptystar.png" alt="" srcset=""></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 justify-content-center align-content-center">
+                    <div class="wrapper">
+                        <img class="logo" src="/assets/image/angular-icon-1-logo-png-transparent.png" alt="" srcset="">
+                    </div>
+                </div>
             </div>
+            
+        </div>
+          
+        
         </div>
     </section>
+    <div class="container-fluid more-info">
+        <div class="more-info2">
+            <h3>More info</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ad, minus reprehenderit sint cumque fugit quo ut aut quos veniam ullam enim dignissimos dicta sed voluptate sunt aperiam esse alias!</p>
+        </div>
+        
+    </div>
+    <footer class="foot">
+        <div class="container">
+            <div class="footerwrap">
+                <img class="centerr" src="assets/image/facebook.png" alt="" srcset="">
+            </div>
+        </div>
+    </footer>
 <script src="./node_modules/aos/dist/aos.js"></script>
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

@@ -13,6 +13,42 @@
     --webkit-transition: all .4s ease;
 
 }
+/* PRESET */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .wrapper{
+      display: flex;
+  }
+
+  .skewRight{
+    background-color:#202020;
+  }
+  .skewLeft{
+    background-color:#202020;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px #FFDF6C;
+  }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px){
+    #navMain{
+        background-color: #202020;
+    }
+    
+    .aboutmet > h3{
+        margin-top: 1rem;
+    }
+    
+}
+
+
 /* BODY */
 *{
     box-sizing: border-box;
@@ -22,14 +58,10 @@ body{
 }
 /* NAV BAR */
 
-@media screen and (max-width: 992px){
-    #navMain{
-        background-color: #202020;
-    }
-}
+
     
 
-#navMain a{
+#navMain a,h2{
     color: #FFDF6C;
     font-family: 'Major Mono Display', monospace;
 
@@ -57,8 +89,8 @@ span i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 70% 100%, 0% 70% );
+    
 }
 .imag{
     
@@ -76,40 +108,25 @@ span i {
 
 /************************************************************************/
 
-/* SKILL CARD */
+/* SKILL SECTION */
 
 h3{
     font-family: var(--webkit-font-family1);
 }
-.card{
-    margin: 0px 40px;
-    border-radius: 15px;
-    box-shadow: 0px 10px 20px 6px rgba(0,0,0,0.3);
-}
-.card-header{
-    border: none;
-    background-color: #FFDF6C;
-}
-.card-body{
-    background-color: #3F3F3F;
-}
-.card-footer{
-    background-color: #202020;
-}
-.card>img{
-    width: 100%;
-    padding: 0% 20%;
-    padding-top: 5%;
-    background-color: #3F3F3F;   
-}
-.card:hover{
-    transform: scale(1.1);
-    transition: .4s;
+.logo{
+    max-width: 15rem;
+    margin: 2rem auto;
 }
 .skillSection{
     width: 90%;
     margin: 0px auto;
     margin-top: 60px;  
+}
+span > img{
+    max-width: 4rem;
+}
+.skill-level{
+    margin: 1rem auto;
 }
 
 /************************************************************************/
@@ -118,14 +135,12 @@ h3{
 
 .about-me{
     height: auto;
-    background-color:#3F3F3F;  
-
-
 }
 .aboutmet{
     color: #FFDF6C;
     text-align: center;
     align-self: center;
+    
 }
 #aboutme{
     display: block;
@@ -133,3 +148,49 @@ h3{
     max-width: 100%;  
     text-align: center;  
 }
+
+/************************************************************************/
+/* INFO */
+.more-info{
+    height: 200px;
+    
+}
+.more-info2{
+    max-width: 80%;
+    margin: 0px auto;
+    transform: translateY(9rem);
+    background-color: #3F3F3F;
+    border-radius: 15px;
+    color: #FFDF6C;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .more-info2{
+        max-width: 100%;
+        margin: 0px auto;
+        transform: translateY(0rem);
+        border-radius: 0px;
+        color: #FFDF6C;
+        text-align: center;
+        
+    }
+    .more-info{
+        height: 200px;
+        background-color: #3F3F3F;
+        display: flex;
+        align-items: center;
+    }
+}
+/* FOOTER */
+
+.foot{
+    height: 300px;
+    background-color: #202020;
+}
+.centerr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    width: 5rem;
+  }
