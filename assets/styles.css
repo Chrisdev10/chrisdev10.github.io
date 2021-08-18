@@ -38,7 +38,7 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px){
-    #navMain{
+    .navbar.navbar-expand-lg{
         background-color: #202020;
     }
     
@@ -158,6 +158,8 @@ span > img{
 .more-info2{
     max-width: 80%;
     margin: 0px auto;
+    padding: 1.5rem 0px;
+
     transform: translateY(9rem);
     background-color: #3F3F3F;
     border-radius: 15px;
