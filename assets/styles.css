@@ -185,12 +185,19 @@ span > img{
 
 .foot{
     height: 300px;
-    background-color: #202020;
+    background-color: #202020;   
+}
+.footerwrap{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+    
 }
 .centerr {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5rem;
-    width: 5rem;
-  }
+    width: 3rem;
+}
+.footerwrap > a:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease;
+}
