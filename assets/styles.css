@@ -135,6 +135,8 @@ span > img{
 
 .about-me{
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 .aboutmet{
     color: #FFDF6C;
