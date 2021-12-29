@@ -52,11 +52,15 @@
 /* BODY */
 *{
     box-sizing: border-box;
+    
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body{
     background-color: #707070;
-    overflow-x: hidden;
-    max-width: 100%;
+    
 }
 /* NAV BAR */
 
