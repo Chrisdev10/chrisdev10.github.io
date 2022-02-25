@@ -306,6 +306,15 @@ span > img{
     box-shadow: 0px 0px 15px 1px #FFDF6C;
 }
 
+.master{
+    align-items: center;
+}
+
+.imageanchor{
+    width: 400px;
+    margin: 0px auto;
+}
+
 @media screen and (max-width: 768px){
     .master{
         background-color:#202020;
@@ -317,4 +326,8 @@ span > img{
         border: 0px;
         box-shadow: 0px 0px 0px 0px transparent;
     }
+    .mastermind{
+        width: 90%;
+    }
+    
 }
