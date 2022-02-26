@@ -150,6 +150,10 @@ span > img{
     align-self: center;
     
 }
+.aboutmet > p{
+    font-size: 20px;
+    text-align: left;
+}
 #aboutme{
     display: block;
     position: relative;
