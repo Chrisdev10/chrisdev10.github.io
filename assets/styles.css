@@ -164,7 +164,7 @@ span > img{
 @keyframes logobright {
     20%{
         filter:brightness(140%);
-        transform:rotate(3deg);
+        
     }
     20%{
         filter:brightness(170%);
