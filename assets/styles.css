@@ -124,17 +124,24 @@ span i {
     display: grid;
     grid-template-columns: repeat(2,500px);
     justify-content: center;
-    column-gap: 3rem;
+    column-gap: 6rem;
 }
+
 .container-fluid-c{
     width: 500px;
 }
+.lastOne{
+    margin: 0px auto;
+}
 @media screen and (max-width: 1120px){
     .gridAll{
-        grid-template-columns: 90%;
+        grid-template-columns: 95%;
     }
     .container-fluid-c{
         width: 95%;
+    }
+    .lastOne{
+        width: 90%;
     }
 }
 h3{
