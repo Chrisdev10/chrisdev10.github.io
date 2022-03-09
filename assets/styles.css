@@ -52,6 +52,7 @@
 /* BODY */
 *{
     box-sizing: border-box;
+    margin: 0px;
     
 }
 html, body{
@@ -115,7 +116,27 @@ span i {
 /************************************************************************/
 
 /* SKILL SECTION */
-
+.aboutmet > h3{
+    padding-top: 15px;
+}
+.gridAll{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    column-gap: 3rem;
+}
+.container-fluid-c{
+    width: 500px;
+}
+@media screen and (max-width: 1120px){
+    .gridAll{
+        grid-template-columns: 90%;
+    }
+    .container-fluid-c{
+        width: 95%;
+    }
+}
 h3{
     font-family: var(--webkit-font-family1);
 }
